@@ -35,6 +35,7 @@
 6.project folder: react-native link
 
 * run on simulator(android might be not work):
+
 android:react-native run-android
 ios:react-native run-ios
 
@@ -48,9 +49,9 @@ ios:
 1.change the project signature to the valid apple developer account
 2.run app on xcode
 
-* package bundle for release:
+~~* package bundle for release:
 
-react-native bundle --entry-file index.js --platform ios --dev false --bundle-output ios/main.jsbundle --assets-dest ios
+~~react-native bundle --entry-file index.js --platform ios --dev false --bundle-output ios/main.jsbundle --assets-dest ios
 react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
 
 * Release on IDE:
