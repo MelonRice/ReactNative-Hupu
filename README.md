@@ -1,6 +1,8 @@
 # React-Native-HupuJRS
 
-这是一个 React Native 版虎扑论坛第三方客户端，目前提供最基本的看帖子的功能，后续考虑增加登录与回帖功能，该App仅供学习交流React Native技术使用，请勿用于商业用途，欢迎Star和Fork，欢迎提pr和issues
+这是一个 React Native 版虎扑论坛第三方客户端，个人学习作品，可同时兼容Android/iOS平台，共用几乎99%的代码
+目前提供最基本的看帖子的功能，后续可考虑增加登录与回帖功能，
+该App仅供学习交流React Native技术使用，请勿用于商业用途，欢迎Star和Fork，欢迎提PR和Issues
 
 ## 下载
 
