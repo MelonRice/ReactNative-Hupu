@@ -33,7 +33,7 @@ __免责声明__  
 
 iOS版未上架，有mac开发环境即可在本地运行本项目直接[运行](#1)
 
-## 界面  How does it look like?
+## 界面
 
 * 主页
 
@@ -41,11 +41,11 @@ iOS版未上架，有mac开发环境即可在本地运行本项目直接[运行]
 
 * 侧边栏
 
-<img src="https://github.com/MelonRice/ReactNative-HupuJRS/blob/master/screenshot/3.jpeg" width="300">
+<img src="https://github.com/MelonRice/ReactNative-HupuJRS/blob/master/screenshot/2.jpeg" width="300">
 
 * 选择子论坛
 
-<img src="https://github.com/MelonRice/ReactNative-HupuJRS/blob/master/screenshot/2.jpeg" width="300">
+<img src="https://github.com/MelonRice/ReactNative-HupuJRS/blob/master/screenshot/3.jpeg" width="300">
 
 * 子论坛帖子列表
 
