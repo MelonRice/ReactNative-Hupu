@@ -18,43 +18,44 @@ const topic_comments_url = base_url + 'threads/getsThreadPostList?';
 const referer_url = 'http://bbs.mobileapi.hupu.com/1/7.0.8/threads/getThreadDetailInfoH5';
 
 class Store {
-  @observable forums=[];
-  @observable selectedTopic;
-  @observable selectedForum;
-  @observable selectedSubForum;
+    @observable forums = [];
+    @observable selectedTopic;
+    @observable selectedForum;
+    @observable selectedSubForum;
 
-  constructor() {
-    AsyncStorage.getItem('@forums')
-    .then((results)=>{
-      this.forums = JSON.parse(results) || [];
-    });
-  }
+    constructor() {
+        AsyncStorage.getItem('@forums')
+            .then((results) => {
+                this.forums = JSON.parse(results) || [];
+            });
+    }
 
-  _persistTopics() {
-    AsyncStorage.setItem('@forums', JSON.stringify(this.forums));
-  }
+    _persistTopics() {
+        AsyncStorage.setItem('@forums', JSON.stringify(this.forums));
+    }
 
-  //获取全部论坛列表（包括自论坛）
-  @action async fetchForums() {
-      const response = await fetch(forums_url);
-      if(response) {
-          const json = await response.json();
-          if(json.data){
-              this.forums = json.data;
-              this._persistTopics();
-          }
-      }
+    //获取全部论坛列表（包括自论坛）
+    @action
+    async fetchForums() {
+        const response = await fetch(forums_url);
+        if (response) {
+            const json = await response.json();
+            if (json.data) {
+                this.forums = json.data;
+                this._persistTopics();
+            }
+        }
 
-          return this.forums;
-  }
+        return this.forums;
+    }
 
-  //根据论坛获取主题列表，分页方式通过传人上一页的最后一个帖子的id：tid
+    //根据论坛获取主题列表，分页方式通过传人上一页的最后一个帖子的id：tid
     @action fetchTopicList(forum, tid) {
 
         var url = '';
-        if(forum && forum.fid){
+        if (forum && forum.fid) {
             url = this.generateTopicsUrl(forum, tid);
-        }else{
+        } else {
             url = this.generateRecommendTopicsUrl(tid);
         }
 
@@ -70,7 +71,8 @@ class Store {
     }
 
     //获取某个帖子的详情内容，页数实际没有用途，默认1
-    @action async fetchTopicDetails(topic, page) {
+    @action
+    async fetchTopicDetails(topic, page) {
         var url = this.generateTopicUrl(topic, page);
 
         const response = await fetch(url);
@@ -80,7 +82,8 @@ class Store {
     }
 
     //获取某个帖子的评论，分页方式为传入页数
-    @action async fetchTopicComments(topic, page) {
+    @action
+    async fetchTopicComments(topic, page) {
         var url = this.generateTopicCommentsUrl(topic, page);
 
         const response = await fetch(url, {headers: {Referer: referer_url}});
@@ -90,55 +93,55 @@ class Store {
     }
 
     //拼推荐贴的URL
-  generateRecommendTopicsUrl(tid) {
-      var timeStamp = Math.floor(Date.now() / 1000);
-      var queryString = 'client=000000000000000&isHome=1&lastTid=' + (tid || '') + '&night=0&stamp=' + timeStamp;
-      return recommend_url + 'sign=' + this.generateSign(queryString) + '&' + queryString;
-  }
+    generateRecommendTopicsUrl(tid) {
+        var timeStamp = Math.floor(Date.now() / 1000);
+        var queryString = 'client=000000000000000&isHome=1&lastTid=' + (tid || '') + '&night=0&stamp=' + timeStamp;
+        return recommend_url + 'sign=' + this.generateSign(queryString) + '&' + queryString;
+    }
 
     //拼帖子列表的URL
-  generateTopicsUrl(forum, tid) {
-      var queryString = 'client=000000000000000&fid=' + forum.fid + '&isHome=1&lastTid=' + (tid || '') + '&night=0&password=0&special=0&stamp=&type=1';
-      return topics_url + 'sign=' + this.generateSign(queryString) + '&' + queryString;
-  }
+    generateTopicsUrl(forum, tid) {
+        var queryString = 'client=000000000000000&fid=' + forum.fid + '&isHome=1&lastTid=' + (tid || '') + '&night=0&password=0&special=0&stamp=&type=1';
+        return topics_url + 'sign=' + this.generateSign(queryString) + '&' + queryString;
+    }
 
     //拼搜索贴子的URL
-  generateSearchTopicsUrl(forum, keyword, page) {
-      var queryString = 'client=000000000000000&fid=' + forum.fid + '&keyword=' + keyword + '&night=0&page=' + page + '&type=posts';
-      return search_topics_url + 'sign=' + this.generateSign(queryString) + '&' + queryString;
-  }
+    generateSearchTopicsUrl(forum, keyword, page) {
+        var queryString = 'client=000000000000000&fid=' + forum.fid + '&keyword=' + keyword + '&night=0&page=' + page + '&type=posts';
+        return search_topics_url + 'sign=' + this.generateSign(queryString) + '&' + queryString;
+    }
 
     //拼贴子详情的URL
-  generateTopicUrl(topic, page) {
-      var queryString = 'client=000000000000000&fid=' + topic.fid + '&night=0&nopic=0&page=' + page + '&tid=' + (topic.tid || topic.id);
-      return topic_url + 'sign=' + this.generateSign(queryString) + '&' + queryString;
-  }
+    generateTopicUrl(topic, page) {
+        var queryString = 'client=000000000000000&fid=' + topic.fid + '&night=0&nopic=0&page=' + page + '&tid=' + (topic.tid || topic.id);
+        return topic_url + 'sign=' + this.generateSign(queryString) + '&' + queryString;
+    }
 
     //拼贴子评论的URL
-  generateTopicCommentsUrl(topic, page) {
-      var queryString = 'client=000000000000000&fid=' + topic.fid + '&night=0&page=' + page + '&tid=' + topic.tid;
-      return topic_comments_url + queryString;
-  }
+    generateTopicCommentsUrl(topic, page) {
+        var queryString = 'client=000000000000000&fid=' + topic.fid + '&night=0&page=' + page + '&tid=' + topic.tid;
+        return topic_comments_url + queryString;
+    }
 
-  //生产MD5签名
-  generateSign(query) {
-      return MD5(query + 'HUPU_SALT_AKJfoiwer394Jeiow4u309');
-  }
+    //生产MD5签名
+    generateSign(query) {
+        return MD5(query + 'HUPU_SALT_AKJfoiwer394Jeiow4u309');
+    }
 
-  //设置当前论坛
-  selectForum(forum) {
-    this.selectedForum = forum;
-  }
+    //设置当前论坛
+    selectForum(forum) {
+        this.selectedForum = forum;
+    }
 
-  //设置当前子论坛
-  selectSubForum(subforum) {
-    this.selectedSubForum = subforum;
-  }
+    //设置当前子论坛
+    selectSubForum(subforum) {
+        this.selectedSubForum = subforum;
+    }
 
-  //设置当前主题
-  selectTopic(topic) {
-    this.selectedTopic = topic;
-  }
+    //设置当前主题
+    selectTopic(topic) {
+        this.selectedTopic = topic;
+    }
 
 }
 
