@@ -8,9 +8,11 @@
 
 # React-Native-HupuJRS
 
+<img src="https://github.com/MelonRice/ReactNative-HupuJRS/blob/master/screenshot/ic_launcher.png">
+
 这是一个 `React Native` 版虎扑论坛第三方客户端，个人学习作品，可同时兼容Android/iOS平台，共用几乎所有的代码
 
-目前仅提供基本的浏览论坛与帖子功能，后续计划增加登录与回帖功能，会持续更新
+目前仅提供基本的浏览论坛与帖子功能，后续计划增加登录与回帖功能(之前参考的开源项目登录api无效了)，会持续更新
 
 该app系本人初学React Native练手之作，比较粗糙，存在诸多bug请多包涵和指正，欢迎提交PR和Issues
 
@@ -123,10 +125,11 @@ iOS:
 ## TODO
 
 1. ~~优化子论坛列表样式~~ (done)
-2. 登录功能
-3. 我的帖子(需要登录)
-4. 回帖
-5. RN项目踩坑过程文档分享
+2. 帖子列表UI样式优化，侧边栏样式优化
+3. 登录功能
+4. 我的帖子(需要登录)
+5. 回帖
+6. RN项目踩坑过程文档分享
 
 ## 致谢:heart:
 - 感谢Hupu Android版第三方应用开发者[gzsll](https://github.com/gzsll)的[TLint](https://github.com/gzsll/TLint)项目提供的大量参考，以及在邮件交流过程中提供的热心帮助
