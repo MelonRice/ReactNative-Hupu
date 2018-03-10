@@ -35,23 +35,23 @@ iOS版等待上架中，有mac开发环境即可在本地运行本项目直接[�
 
 * 主页
 
-<img src="https://github.com/MelonRice/ReactNative-HupuJRS/blob/master/screenshot/1.jpeg" width="200">
+<img src="https://github.com/MelonRice/ReactNative-HupuJRS/blob/master/screenshot/1.jpeg" width="300">
 
 * 侧边栏
 
-<img src="https://github.com/MelonRice/ReactNative-HupuJRS/blob/master/screenshot/3.jpeg" width="200">
+<img src="https://github.com/MelonRice/ReactNative-HupuJRS/blob/master/screenshot/3.jpeg" width="300">
 
 * 选择子论坛
 
-<img src="https://github.com/MelonRice/ReactNative-HupuJRS/blob/master/screenshot/2.jpeg" width="200">
+<img src="https://github.com/MelonRice/ReactNative-HupuJRS/blob/master/screenshot/2.jpeg" width="300">
 
 * 子论坛帖子列表
 
-<img src="https://github.com/MelonRice/ReactNative-HupuJRS/blob/master/screenshot/4.jpeg" width="200">
+<img src="https://github.com/MelonRice/ReactNative-HupuJRS/blob/master/screenshot/4.jpeg" width="300">
 
 * 帖子详情
 
-<img src="https://github.com/MelonRice/ReactNative-HupuJRS/blob/master/screenshot/5.jpeg" width="200">
+<img src="https://github.com/MelonRice/ReactNative-HupuJRS/blob/master/screenshot/5.jpeg" width="300">
 
 * 回复
 
