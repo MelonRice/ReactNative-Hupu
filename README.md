@@ -14,9 +14,9 @@
 
 目前仅提供基本的浏览论坛与帖子功能，后续计划增加登录与回帖功能(之前参考的开源项目登录api无效了)，会持续更新
 
-该app系本人初学React Native练手之作，比较粗糙，存在诸多bug请多包涵和指正，欢迎提交PR和Issues
+该应用系本人初学React Native练手之作，比较粗糙，存在诸多bug请多包涵和指正，欢迎提交PR和Issues
 
-该App仅供学习交流React Native技术使用，请勿用于商业用途，欢迎Star和Fork
+本App仅供学习交流React Native技术使用，请勿用于商业用途，欢迎Star和Fork
 
 __免责声明__  
 
