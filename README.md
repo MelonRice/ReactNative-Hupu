@@ -29,7 +29,7 @@ __免责声明__  
 二维码扫描下载(Android beta1)：
 <center><img src="https://github.com/MelonRice/ReactNative-HupuJRS/blob/master/screenshot/下载.png"></center>
 
-iOS版等待上架中，有mac开发环境即可在本地运行本项目直接[运行](#1)
+iOS版未上架，有mac开发环境即可在本地运行本项目直接[运行](#1)
 
 ## 界面  How does it look like?
 
