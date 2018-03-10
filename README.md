@@ -125,10 +125,11 @@ iOS:
 ## TODO
 
 1. ~~优化子论坛列表样式~~ (done)
-2. 登录功能
-3. 我的帖子(需要登录)
-4. 回帖
-5. RN项目踩坑过程文档分享
+2. 帖子列表UI样式优化，侧边栏样式优化
+3. 登录功能
+4. 我的帖子(需要登录)
+5. 回帖
+6. RN项目踩坑过程文档分享
 
 ## 致谢:heart:
 - 感谢Hupu Android版第三方应用开发者[gzsll](https://github.com/gzsll)的[TLint](https://github.com/gzsll/TLint)项目提供的大量参考，以及在邮件交流过程中提供的热心帮助
