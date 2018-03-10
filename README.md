@@ -55,6 +55,8 @@ iOS版等待上架中，有mac开发环境即可在本地运行本项目直接[�
 
 * 回复
 
+<img src="https://github.com/MelonRice/ReactNative-HupuJRS/blob/master/screenshot/6.jpeg" width="300">
+
 ## <h2 id="1">运行</h2>
 
 ### 环境配置步骤:
@@ -62,12 +64,12 @@ iOS版等待上架中，有mac开发环境即可在本地运行本项目直接[�
 
 2.安装 nodejs > 9.0
 > 如果之前安装的是其他版本node，请在安装9.0前进行一下以下操作：
->
-rm -rf node_modules
->
-nvm use 9.0.0
->
-npm install
+
+> rm -rf node_modules
+
+> nvm use 9.0.0
+
+> npm install
 
 3.npm install -g react-native-cli
 
