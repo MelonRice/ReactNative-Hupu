@@ -8,6 +8,8 @@
 
 # React-Native-HupuJRS
 
+<img src="https://github.com/MelonRice/ReactNative-HupuJRS/blob/master/screenshot/ic_launcher.png">
+
 这是一个 `React Native` 版虎扑论坛第三方客户端，个人学习作品，可同时兼容Android/iOS平台，共用几乎所有的代码
 
 目前仅提供基本的浏览论坛与帖子功能，后续计划增加登录与回帖功能，会持续更新
