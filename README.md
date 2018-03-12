@@ -114,13 +114,13 @@ iOS:
 
 [mobx-react](https://github.com/mobxjs/mobx-react): 配合mobx，使react的组件能够识别mobx状态管理
 
-[native-base](): 为react native定义的一系列跨平台UI组件
+[native-base](https://github.com/GeekyAnts/NativeBase): 为react native定义的一系列跨平台UI组件
 
-[react-native-htmlview](): 将 HTML 目录作为本地视图的控件，风格可定制
+[react-native-htmlview](https://github.com/jsdf/react-native-htmlview): 将 HTML 目录作为本地视图的控件，风格可定制
 
-[react-native-searchbar](): 一款带有常用搜索框的组件
+[react-native-searchbar](https://github.com/localz/react-native-searchbar): 一款带有常用搜索框的组件
 
-[react-navigation](): 官方目前推荐使用的导航管理工具
+[react-navigation](https://github.com/react-navigation/react-navigation): 官方目前推荐使用的导航管理工具
 
 ## TODO
 
