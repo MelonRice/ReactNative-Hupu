@@ -8,7 +8,7 @@
 
 # React-Native-HupuJRS  
 
-[中文文档点此](https://github.com/MelonRice/ReactNative-HupuJRS/README-zh.md)
+[中文文档点此](https://github.com/MelonRice/ReactNative-HupuJRS/blob/master/README-zh.md)
 
 <img src="https://github.com/MelonRice/ReactNative-HupuJRS/blob/master/screenshot/ic_launcher.png">
 
