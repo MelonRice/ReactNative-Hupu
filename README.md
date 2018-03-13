@@ -6,7 +6,9 @@
 [![Thanks](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/ResolveWang)
 [![GitHub issues](https://img.shields.io/github/issues/MelonRice/ReactNative-HupuJRS.svg?style=plastic)](https://github.com/MelonRice/ReactNative-HupuJRS/issues)
 
-# React-Native-HupuJRS  [中文文档](https://github.com/MelonRice/ReactNative-HupuJRS/README-zh.md)
+# React-Native-HupuJRS  
+
+[中文文档点此](https://github.com/MelonRice/ReactNative-HupuJRS/README-zh.md)
 
 <img src="https://github.com/MelonRice/ReactNative-HupuJRS/blob/master/screenshot/ic_launcher.png">
 
