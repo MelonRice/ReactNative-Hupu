@@ -42,6 +42,7 @@ https://www.bmqb.com/
 > 乐动信息(咕咚手环)
 Android开发
 2015.01 - 2015.12
+
 在咕咚运动手环的基础上，开发调试针对养老市场的老人手环、手表Android端
 http://www.codoon.com/
 
