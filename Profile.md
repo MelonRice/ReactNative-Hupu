@@ -65,8 +65,8 @@ http://www.codoon.com/
 > 教育经历
 > Master 武汉大学 2010 - 2013
 
-> 软件工程 Software Engineering
+软件工程 Software Engineering
 
 > Bachelor：西安交通大学 2005 - 2009
 
-> 通信工程 Communication Engineering
+通信工程 Communication Engineering
