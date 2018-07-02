@@ -1,10 +1,10 @@
 ### Resume
 
-> Name: 李宏微      Rice
-> Tel: +8618080071917
-> Email:  lihongwei850718@gmail.com
-> wechat: dami8507
-> github: https://github.com/MelonRice
+> Name: 李宏微      Rice 
+> Tel: +8618080071917 
+> Email:  lihongwei850718@gmail.com 
+> wechat: dami8507 
+> github: https://github.com/MelonRice 
 
 ---
 
