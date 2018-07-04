@@ -24,7 +24,9 @@ Android工程师（4年），iOS工程师（1年）
 - 对快应用，小程序等PWA技术的开发方案有所了解
 - 具有互联网金融、智能硬件领域的创业公司技术经验与商业化应用经验
 - 目前主要研究和攻关移动端的多端融合，移动端架构设计，React Native、Flutter等混合开发技术在移动端的应用；并致力于国内Flutter社区技术布道
+
 [我的Github](https://github.com/MelonRice)
+
 [Flutter中文社区](http://flutter-dev.cn/)
 
 ---
