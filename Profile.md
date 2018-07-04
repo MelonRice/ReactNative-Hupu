@@ -19,7 +19,7 @@
 
 > 技术经历：
 - 5年 Mobile Development 开发
-Android工程师（4年），iOS工程师（1年）
+其中Android工程师（4年），iOS工程师（1年)
 - 另具有React Native ，Flutter等跨平台开发框架的项目落地经验
 - 对快应用，小程序等PWA技术的开发方案有所了解
 - 具有互联网金融、智能硬件领域的创业公司技术经验与商业化应用经验
