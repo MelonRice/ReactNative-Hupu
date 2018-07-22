@@ -38,7 +38,7 @@
 1. 开发贝米钱包Android版
 2. Swift重写贝米钱包iOS版，并用React Native开发跨平台模块
 3. 研究Flutter开发框架在移动端的应用，活跃在Flutter中文开源社区
-https://www.bmqb.com/
+https://m.bmqb.com/
 
 > 乐动信息(咕咚手环)
 Android开发
