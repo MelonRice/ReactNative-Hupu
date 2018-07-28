@@ -62,7 +62,8 @@ http://www.codoon.com/
 
 ---
 
-> 教育经历
+教育经历
+
 > Master 武汉大学 2010 - 2013
 
 软件工程 Software Engineering
