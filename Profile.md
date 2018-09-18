@@ -37,6 +37,9 @@
 > 草屋科技(cottageTech)创业项目 移动端负责
 2018.07 - 至今 (Remote工作)
 1. 某区块链公司钱包与交易所项目移动端主程与技术咨询专家
+
+开发的区块链钱包项目 Android版App试用：https://fir.im/imbuff2018
+
 2. cottageTech跨境电商项目移动端主程
 
 > 贝米钱包  移动开发负责人
@@ -44,6 +47,7 @@
 1. 开发贝米钱包Android版
 2. Swift重写贝米钱包iOS版，并用React Native开发跨平台模块
 3. 研究Flutter开发框架在移动端的应用，活跃在Flutter中文开源社区
+
 https://m.bmqb.com/
 
 > 乐动信息(咕咚手环)
