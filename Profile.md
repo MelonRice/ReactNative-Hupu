@@ -8,7 +8,7 @@
 
 > wechat: dami8507 
 
-> github: https://github.com/MelonRice 
+> github: https://github.com/Rice4Gua
 
 ---
 
@@ -26,7 +26,7 @@
 - 目前主要研究和攻关移动端的多端融合，移动端架构设计，React Native、Flutter等混合开发技术在移动端的应用；并致力于国内Flutter社区技术布道
 - 正在进行的项目：区块链、钱包、交易所相关应用开发；跨境电商项目开发
 
-[我的Github](https://github.com/MelonRice)
+[我的Github](https://github.com/Rice4Gua)
 
 [Flutter中文社区](http://flutter-dev.cn/)
 
